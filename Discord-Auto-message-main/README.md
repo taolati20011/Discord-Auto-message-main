@@ -78,3 +78,18 @@ Right click on the channel and click Copy Link
 4. Channel ID
 
 Right click on the channel and click Copy Channel ID
+
+## First time using step
+
+1. Run command
+
+```
+python auto.py
+```
+
+Enter your config (info.txt)
+
+2. Edit messages.txt file
+
+This code will auto chat one line message in messages.txt file, you can remove or add new message
+

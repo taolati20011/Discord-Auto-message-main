@@ -120,8 +120,7 @@ def main():
     print(f"{get_timestamp()} Messages will be sent to " + header_data["referrer"] + ".")
 
     print("Please initialise your delays and sleep time, there will be some random offsets applied as well!\n")
-    delay_between_messages = int(input("Delay (in seconds) between messages: "))
-    sleep_time = int(input("Sleep time (in seconds): "))
+    sleep_time = 0
 
     while True:
         try:
