@@ -47,6 +47,34 @@ python auto.py --setC
 python auto.py --help
 ```
 
-## Contributing
+## Formatting
 
-If you encounter bugs or have feature requests, please create an issue on GitHub. Pull requests are also appreciated. Don't forget to star this project if you find it useful!
+Your info.txt file must following this:
+
+```
+{discord_id}
+{Authorization}
+{Channel URL}
+{Channel ID}
+```
+
+## How to get info
+
+1. Discord_id
+
+Open discord setting, go to Advanced (in App Settings) -> Turn on Developer Mode
+-> Back to My Account tab, click on `...` -> Copy User ID
+
+2. Authorization header
+
+Open url: `https://discord.com/channels/@me` on web, log in to your discord
+-> Open F12 tab (inspect mode) -> In Network tab (Logo wifi), find request with name `2`
+-> Look to the right, in Header tab, find Authorization header
+
+3. Channel URL
+
+Right click on the channel and click Copy Link
+
+4. Channel ID
+
+Right click on the channel and click Copy Channel ID
